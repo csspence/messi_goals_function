@@ -14,6 +14,6 @@ For example:
 5, 10, 2  -->  17
 */
 
-function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-  // code goes here
+const goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
